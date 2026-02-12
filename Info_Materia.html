@@ -22,8 +22,7 @@
         }
         header {
             text-align: center;
-            border-bottom: 2px solid #eee;
-            padding-bottom: 20px;
+            padding-bottom: 15px;
         }
         header h1 {
             margin: 0;
@@ -34,23 +33,96 @@
             margin: 5px 0;
             font-size: 16px;
         }
-        section id="perfil"$1<section id="educacion"><h2>Educación</h2></a>
+
+        /* MENU */
+        nav {
+            background: #2c3e50;
+            padding: 10px;
+            border-radius: 8px;
+            margin: 20px 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            color: #3498db;
+        }
+
+        section {
+            margin-top: 25px;
+        }
+        section h2 {
+            font-size: 22px;
+            color: #2c3e50;
+            border-left: 5px solid #3498db;
+            padding-left: 10px;
+            margin-bottom: 15px;
+        }
+        .item {
+            margin-bottom: 15px;
+        }
+        .item h3 {
+            margin: 0;
+            font-size: 18px;
+        }
+        .item span {
+            font-size: 14px;
+            color: #777;
+        }
+        ul {
+            margin: 8px 0 0 20px;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill {
+            background: #3498db;
+            color: #fff;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Anton</h1>
+            <p>Estudiante de Programación | Desarrollador en formación</p>
+            <p>Email: anton@email.com | Tel: 000-000-0000 | México</p>
+        </header>
+
+        <nav>
+            <a href="#perfil">Perfil</a>
+            <a href="#educacion">Educación</a>
             <a href="#proyectos">Proyectos</a>
             <a href="#habilidades">Habilidades</a>
-            <a href="#idiomas"></section>
-
-        <section id="idiomas">
-            <h2>Idiomas</h2></a>
+            <a href="#idiomas">Idiomas</a>
         </nav>
 
         <section id="perfil">
             <h2>Perfil</h2>
             <p>
-                Estudiante interesado en el desarrollo de software y la tecnología, con conocimientos básicos en programación, bases de datos y desarrollo de aplicaciones. Motivado por aprender, mejorar continuamente y participar en proyectos reales.
+                Estudiante interesado en el desarrollo de software y la tecnología, con conocimientos básicos en programación, bases de datos y desarrollo de aplicaciones.
             </p>
-        </section id="perfil">
+        </section>
 
-        <section id="perfil">
+        <section id="educacion">
             <h2>Educación</h2>
             <div class="item">
                 <h3>Carrera / Técnico en Programación</h3>
@@ -61,12 +133,7 @@
                     <li>Desarrollo de aplicaciones</li>
                 </ul>
             </div>
-        </section id="perfil">
-
-        <section id="perfil">
-            <h2>Proyectos</h2>
-            <div class="item">
-                <h3></section>
+        </section>
 
         <section id="proyectos">
             <h2>Proyectos</h2>
@@ -75,25 +142,13 @@
                 <span>Proyecto académico</span>
                 <ul>
                     <li>Desarrollo en C# y Arduino</li>
-                    <li>Enfoque en reciclaje y conciencia ambiental</li>
-                    <li>Uso de bases de datos y control de inventario</li>
+                    <li>Uso de bases de datos</li>
+                    <li>Enfoque ambiental</li>
                 </ul>
             </div>
         </section>
 
         <section id="habilidades">
-            <h2>Habilidades</h2>
-            <div class="skills"> de Útiles Escolares</h3>
-                <span>Proyecto académico</span>
-                <ul>
-                    <li>Desarrollo en C# y Arduino</li>
-                    <li>Enfoque en reciclaje y conciencia ambiental</li>
-                    <li>Uso de bases de datos y control de inventario</li>
-                </ul>
-            </div>
-        </section id="perfil">
-
-        <section id="perfil">
             <h2>Habilidades</h2>
             <div class="skills">
                 <div class="skill">HTML</div>
@@ -101,39 +156,18 @@
                 <div class="skill">C#</div>
                 <div class="skill">Arduino</div>
                 <div class="skill">SQL</div>
-                <div class="skill">Trabajo en equipo</div>
             </div>
-        </section id="perfil">
+        </section>
 
-        <section id="perfil">
+        <section id="idiomas">
             <h2>Idiomas</h2>
             <ul>
                 <li>Español – Nativo</li>
                 <li>Inglés – Básico / Intermedio</li>
             </ul>
-        </section id="perfil">
+        </section>
 
-        <<style>
-        .menu {
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-            margin-top: 20px;
-            padding-bottom: 10px;
-            border-bottom: 2px solid #eee;
-        }
-        .menu a {
-            text-decoration: none;
-            color: #3498db;
-            font-weight: bold;
-            font-size: 14px;
-        }
-        .menu a:hover {
-            color: #2c3e50;
-        }
-    </style>
-
-        <footer>>
+        <footer>
             <p>Currículum Vitae - Anton © 2026</p>
         </footer>
     </div>
