@@ -34,6 +34,29 @@
             margin: 5px 0;
             font-size: 16px;
         }
+
+        /* BOTÓN */
+        .menu-btn {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .menu-btn a {
+            text-decoration: none;
+            background: #2c3e50;
+            color: white;
+            padding: 12px 22px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .menu-btn a:hover {
+            background: #3498db;
+        }
+
         section {
             margin-top: 25px;
         }
@@ -76,20 +99,6 @@
             font-size: 14px;
             color: #777;
         }
-        a {
-            text-decoration: none;
-            background: #2c3e50;
-            color: white;
-            padding: 15px 25px;
-            border-radius: 8px;
-            font-size: 18px;
-            font-weight: bold;
-            transition: 0.3s;
-        }
-
-        a:hover {
-            background: #3498db;
-        }
     </style>
 </head>
 <body>
@@ -100,12 +109,14 @@
             <p>Email: anton@email.com | Tel: 000-000-0000 | México</p>
         </header>
 
-        <a href="menu.html">Ir al Menú</a>
-        
+        <div class="menu-btn">
+            <a href="menu.html">Ir al Menú</a>
+        </div>
+
         <section>
             <h2>Perfil</h2>
             <p>
-                Estudiante interesado en el desarrollo de software y la tecnología, con conocimientos básicos en programación, bases de datos y desarrollo de aplicaciones. Motivado por aprender, mejorar continuamente y participar en proyectos reales.
+                Estudiante interesado en el desarrollo de software y la tecnología, con conocimientos básicos en programación, bases de datos y desarrollo de aplicaciones.
             </p>
         </section>
 
@@ -114,11 +125,6 @@
             <div class="item">
                 <h3>Carrera / Técnico en Programación</h3>
                 <span>Nombre de la institución | 202X - Actualidad</span>
-                <ul>
-                    <li>Fundamentos de programación</li>
-                    <li>Bases de datos</li>
-                    <li>Desarrollo de aplicaciones</li>
-                </ul>
             </div>
         </section>
 
@@ -127,11 +133,6 @@
             <div class="item">
                 <h3>Máquina Expendedora de Útiles Escolares</h3>
                 <span>Proyecto académico</span>
-                <ul>
-                    <li>Desarrollo en C# y Arduino</li>
-                    <li>Enfoque en reciclaje y conciencia ambiental</li>
-                    <li>Uso de bases de datos y control de inventario</li>
-                </ul>
             </div>
         </section>
 
@@ -143,16 +144,7 @@
                 <div class="skill">C#</div>
                 <div class="skill">Arduino</div>
                 <div class="skill">SQL</div>
-                <div class="skill">Trabajo en equipo</div>
             </div>
-        </section>
-
-        <section>
-            <h2>Idiomas</h2>
-            <ul>
-                <li>Español – Nativo</li>
-                <li>Inglés – Básico / Intermedio</li>
-            </ul>
         </section>
 
         <footer>
